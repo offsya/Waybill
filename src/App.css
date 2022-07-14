@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+body{
+  background-color: white; /*#f0a976*/
+}
+
+.navbr{
+  display: flex;
+  justify-content: space-around;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +43,83 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.block{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.fl{
+  display: flex;
+  justify-content: center;
+}
+
+.fll{
+  display: flex;
+  flex-direction: column;
+}
+
+.select{
+  display: flex;
+  flex-direction: column;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.option{
+  width: 100%;
+  background: none;
+  appearance: none;
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  outline: none;
+  text-align: center;
+}
+
+.option:hover{
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px 1px gray;
+  color: black;
+}
+
+.text{
+  font-size: 24px
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input{
+  appearance: none;
+  width: 200px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 4px;
+  outline: none;
+  text-align: center;
+}
+
+.input:hover{
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px 1px gray;
+  color: black;
+}
+.input:focus{
+  box-shadow: 0px 0px 10px 1px black;
+}
+
+.but{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 5%;
+  cursor: pointer;
 }
